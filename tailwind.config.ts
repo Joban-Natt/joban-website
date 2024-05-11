@@ -7,6 +7,14 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      jred: '#d70050',
+      jhred: '#AD003F',
+      jcream: '#ebecf0',
+      jbgGrey: '#333333 ',
+      jGrey: '#1a1a1a ',
+    },
+
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -19,7 +27,9 @@ const config: Config = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["winter"],
+    themes: ["dark"],
   },
 };
+
+
 export default config;
