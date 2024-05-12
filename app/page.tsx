@@ -4,6 +4,7 @@ import ProductCard from "./components/Projects/projectCard";
 import Intro from "./components/Intro/page";
 import Header from "./components/header/page";
 import Experience from "./components/Experience/page";
+import Footer from "./components/footer/page";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Intro />
       <Experience />
       <ProductCard />
+      <Footer />
     </main>
   );
 }

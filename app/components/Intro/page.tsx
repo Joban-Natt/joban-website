@@ -12,10 +12,12 @@ export default function Intro() {
             Jobanpreet Natt
           </h1>
           <div className="w-[100%] sm:w-[50vw] sm:inline-block text-jcream xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 pr-6 sm:pr-0">
-            Welcome to my website! I am currently a Mechanical Engineering
-            student at the University of Waterloo. I love learning and creating
-            fun projects so please take the time to read through my experiences.
-            If you have any questions, don't hesitate to reach out.
+            Welcome to my website! As you probably know, my name is Jobanpreet,
+            however I'd rather be called Joban (Joe - bin). I am currently a
+            Mechanical Engineering student at the University of Waterloo. I love
+            learning and creating fun projects so please take the time to read
+            through my experiences. If you have any questions, don't hesitate to
+            reach out.
           </div>
 
           {/* ICONS */}
@@ -73,7 +75,7 @@ export default function Intro() {
         <div className="hidden mr-0 xl:mr-[9%] sm:inline-block w-[400px] mt-[-8rem]">
           <img
             alt="jobansPicture"
-            src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/legopic.png"
+            src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/selfPic.png"
           />
         </div>
       </div>
