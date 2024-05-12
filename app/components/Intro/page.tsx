@@ -72,10 +72,12 @@ export default function Intro() {
             <CopyToClipboard />
           </div>
         </div>
-        <div className="hidden mr-0 xl:mr-[9%] sm:inline-block w-[400px] mt-[-8rem]">
-          <img
+        <div className="hidden mr-0 xl:mr-[9%] sm:inline-block mt-[-8rem]">
+          <Image
             alt="jobansPicture"
             src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/selfPic.png"
+            width={400}
+            height={400}
           />
         </div>
       </div>
