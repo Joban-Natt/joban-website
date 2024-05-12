@@ -210,8 +210,8 @@ const ProductCard = () => {
             <p className="text-jcream">
               My first experience with object-oriented programming was making
               this Airplane Game where the objective is to destroy the other
-              plane. The game uses the users' keyboard input to move the planes
-              around and shoot. Although simplistic, it was an extremely
+              plane. The game uses the users&apos; keyboard input to move the
+              planes around and shoot. Although simplistic, it was an extremely
               informative introduction to <b>performance optimization</b>,{" "}
               <b>event handlers</b>, and <b>objects</b>.
             </p>
