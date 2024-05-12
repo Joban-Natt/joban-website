@@ -55,7 +55,7 @@ export default function Experience() {
                 HTML
               </div>
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                JavaSript
+                JavaScript
               </div>
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 CSS
