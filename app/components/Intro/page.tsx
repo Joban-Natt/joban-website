@@ -5,7 +5,7 @@ import CopyToClipboard from "./clipboard";
 
 export default function Intro() {
   return (
-    <div className="">
+    <div className="pt-[2rem]">
       <div className="h-[100vh] flex items-center">
         <div className="lg:w-4/5 flex flex-col pr-10 mt-[-5rem]">
           <h1 className="text-jcream xl:text-5xl lg:text-4xl text-2xl font-bold xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
@@ -23,12 +23,12 @@ export default function Intro() {
           {/* ICONS */}
           <div className="xl:flex text-jcream mt-1 xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 items-center">
             {/* Github icon */}
-            <div className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-110 hover:duration-75">
-              <button>
-                <Link
-                  target="_Blank"
-                  href="https://github.com/Joban-Natt?tab=repositories"
-                >
+            <Link
+              target="_Blank"
+              href="https://github.com/Joban-Natt?tab=repositories"
+            >
+              <div className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-110 hover:duration-75 active:scale-95">
+                <button>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.5rem"
@@ -41,17 +41,17 @@ export default function Intro() {
                   <p className="pl-1 inline-block align-middle text-[1.25rem]">
                     Github
                   </p>
-                </Link>
-              </button>
-            </div>
+                </button>
+              </div>
+            </Link>
 
             {/* LinkedIn Icon */}
-            <div className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-110 hover:duration-75">
-              <button>
-                <Link
-                  target="_Blank"
-                  href="https://www.linkedin.com/in/jobanpreet-natt/"
-                >
+            <Link
+              target="_Blank"
+              href="https://www.linkedin.com/in/jobanpreet-natt/"
+            >
+              <div className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-110 hover:duration-75 active:scale-95">
+                <button>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.5rem"
@@ -64,9 +64,9 @@ export default function Intro() {
                   <p className="pl-1 inline-block align-middle text-[1.25rem]">
                     LinkedIn
                   </p>
-                </Link>
-              </button>
-            </div>
+                </button>
+              </div>
+            </Link>
 
             {/* Mail Icon */}
             <CopyToClipboard />
