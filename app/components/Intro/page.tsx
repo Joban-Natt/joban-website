@@ -5,7 +5,7 @@ import CopyToClipboard from "./clipboard";
 
 export default function Intro() {
   return (
-    <div className="mt-[-2rem]">
+    <div className="">
       <div className="h-[100vh] flex items-center">
         <div className="lg:w-4/5 flex flex-col pr-10 mt-[-5rem]">
           <h1 className="text-jcream xl:text-5xl lg:text-4xl text-2xl font-bold xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
