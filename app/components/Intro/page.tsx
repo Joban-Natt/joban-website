@@ -5,9 +5,9 @@ import CopyToClipboard from "./clipboard";
 
 export default function Intro() {
   return (
-    <div className="pt-[2rem]">
+    <div className="pt-[4rem]">
       <div className="h-[100vh] flex items-center">
-        <div className="lg:w-4/5 flex flex-col pr-10 mt-[-5rem]">
+        <div className="lg:w-4/5 flex flex-col pr-10 mb-[5rem]">
           <h1 className="text-jcream xl:text-5xl lg:text-4xl text-2xl font-bold xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6">
             Jobanpreet Natt
           </h1>
@@ -72,7 +72,7 @@ export default function Intro() {
             <CopyToClipboard />
           </div>
         </div>
-        <div className="hidden mr-0 xl:mr-[9%] sm:inline-block mt-[-8rem]">
+        <div className="hidden mr-0 xl:mr-[9%] sm:inline-block mb-[5rem]">
           <Image
             alt="jobansPicture"
             src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/selfPic.png"
