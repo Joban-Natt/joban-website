@@ -48,7 +48,7 @@ const Header = () => {
   };
   // max-[362]:text-[2rem]
   return (
-    <div className="top-0 z-10 bg-jGrey justify-between w-[100%] flex fixed h-[3rem] items-center font-bold">
+    <div className="top-0 z-10 bg-jbgGrey justify-between w-[100%] flex fixed h-[3rem] items-center font-bold">
       <div className="">
         <div className="pl-[1rem] inline-block hover:text-jcream">
           <button onClick={scrollToTop}>HOME</button>
