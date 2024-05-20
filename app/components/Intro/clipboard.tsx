@@ -4,15 +4,15 @@ import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 const CopyToClipboard = () => {
-  function copyText(entryText: string) {
-    navigator.clipboard.writeText(entryText);
+  function mailText() {
+    window.location.href = "mailto:jobanpreet.natt@uwaterloo.ca";
   }
 
   const alert = () => {
     try {
-      copyText("jobanpreet.natt@uwaterloo.ca");
+      mailText();
 
-      toast.success("Copied to clipboard", {
+      toast.success("Opening Mail...", {
         position: "top-right",
         autoClose: 800,
         theme: "dark",
@@ -20,13 +20,16 @@ const CopyToClipboard = () => {
         pauseOnFocusLoss: false,
       });
     } catch (error) {
-      toast.error("Failed to copy");
+      toast.error("Failed to mail");
     }
   };
 
   return (
-    <div className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-105 hover:duration-75 active:scale-95">
-      <button onClick={alert}>
+    <div
+      onClick={alert}
+      className="bg-jred mt-4 px-4 mr-4 rounded-[12px] duration-75 hover:bg-jhred hover:scale-105 hover:duration-75 active:scale-95"
+    >
+      <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1.5rem"
