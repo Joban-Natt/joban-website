@@ -75,7 +75,7 @@ export default function Intro() {
         <div className="hidden mr-0 xl:mr-[9%] sm:inline-block mb-[5rem]">
           <Image
             alt="jobansPicture"
-            src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/selfPic.png"
+            src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/legopic.png"
             width={400}
             height={400}
           />
