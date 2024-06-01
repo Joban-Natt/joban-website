@@ -12,7 +12,7 @@ const ProductCard = () => {
         <div className="my-6 card xl:w-[24rem] md:w-[24rem] w-full bg-jGrey shadow-xl">
           <figure>
             <img
-              src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/siteScreenShot2.png"
+              src="https://jobanwebsitepics.s3.us-east-2.amazonaws.com/siteScreenShot3.png"
               alt="projPic"
             />
           </figure>
