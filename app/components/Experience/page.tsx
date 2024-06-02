@@ -80,22 +80,27 @@ export default function Experience() {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-              <time className="font-mono italic">
-                November 2022 - April 2023
-              </time>
-              <div className="text-lg font-black">Kumon</div>
-              In Kumon, I was able to strengthen my foundational concepts of{" "}
-              <b>Math</b> and <b>English</b> by explaining different
-              mathematical concepts and their applications to a large
-              demographic of ages. This also strengthened my soft skills like{" "}
-              <b>communication</b>, as I had to explain <b>complex ideas</b>{" "}
-              (relative to the student) in an <b>easy way</b>, such that they{" "}
-              could understand. <br />
+              <time className="font-mono italic">May 2024 - Present</time>
+              <div className="text-lg font-black">UW Orbital</div>
+              Designed and manufactured winders for magnetorquers in SOLIDWORKS
+              that control the attitude and stability of the satilite in low
+              earth orbit.
+              <br /> Developing a thermal vacuum setup using Siemens NX to test
+              and qualify the CubeSat for launch that must achieve pressures of
+              10<sup>-6</sup> Torr, temperatures of -50C - 100C, and autonomous
+              operation for atleast 72 hours.
+              <br />
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                Math
+                Siemans NX
               </div>
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                Communication
+                Thermal Simulations
+              </div>
+              <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
+                R&D
+              </div>
+              <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
+                FEA
               </div>
             </div>
             <hr />
@@ -117,22 +122,19 @@ export default function Experience() {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10">
-              <time className="font-mono italic">August 2022 - March 2023</time>
-              <div className="text-lg font-black">GRADWEAR</div>
-              At GRADWEAR, I managed the <b>design</b>, <b>marketing</b>,{" "}
-              <b>distribution</b>, and <b>customer support</b> for apparel
-              ordered by high school students. My ability to market and create
-              demand <b>increased sales</b> by over <b>200%</b> compared to the
-              previous year.
-              <br />
+              <time className="font-mono italic">
+                November 2022 - April 2023
+              </time>
+              <div className="text-lg font-black">Kumon</div>
+              In Kumon, I was able to strengthen my foundational concepts of{" "}
+              <b>Math</b> and <b>English</b> by explaining different
+              mathematical concepts and their applications to a large
+              demographic of ages. This also strengthened my soft skills like{" "}
+              <b>communication</b>, as I had to explain <b>complex ideas</b>{" "}
+              (relative to the student) in an <b>easy way</b>, such that they{" "}
+              could understand. <br />
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                Entrepreneurship
-              </div>
-              <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                Marketing
-              </div>
-              <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
-                Customer Service
+                Math
               </div>
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 Communication
