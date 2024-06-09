@@ -28,7 +28,7 @@ export default function Experience() {
               <time className="font-mono italic">January 2024 - May 2024</time>
               <div className="text-lg font-black">MPI MORHEAT</div>
               Designed heaters and temperature panels with <b>AutoCAD</b> and
-              <b>SOLIDWORKS</b> and decreased production time by over <b>10%</b>{" "}
+              <b>SOLIDWORKS</b> and decreased production time by over <b>3%</b>{" "}
               by using <b>DFMA</b> principles for CNC milling and sheet metal
               forming. <br />
               Analyzed pre-existing schematics and housings to{" "}
@@ -40,7 +40,8 @@ export default function Experience() {
               Programmed multiple heater configurators with{" "}
               <b>HTML, JavaScript, and CSS</b> that generated{" "}
               <b>engineering drawings</b> for the manufacturing team, cutting
-              down production time and removing the need for an engineer.
+              down production time by more than <b>9%</b> and removing the need
+              for an engineer.
               <br />
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 AutoCAD
