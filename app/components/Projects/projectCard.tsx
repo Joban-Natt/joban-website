@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Video from "next-video";
 
 const ProductCard = () => {
   return (
@@ -8,7 +9,8 @@ const ProductCard = () => {
       <div>
         <h1 className="text-[2rem] font-bold">PROJECTS</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center">
         <div className="my-6 card xl:w-[24rem] md:w-[24rem] w-full bg-jGrey shadow-xl">
           <figure>
             <img
@@ -22,7 +24,8 @@ const ProductCard = () => {
                 This Website!
               </h2>
               <p className="relative italic">
-                React, Next.js, TypeScript, DaisyUI, Tailwind CSS, Amazon S3
+                React, Next.js, TypeScript, DaisyUI, Tailwind CSS, Amazon S3,
+                Git
               </p>
             </span>
             <p className="text-jcream">
@@ -114,9 +117,11 @@ const ProductCard = () => {
           </div>
         </div>
 
-        <div className="my-6 card xl:w-[24rem] md:w-[24rem] w-full bg-jGrey shadow-xl">
+        <div className="my-6 card xl:w-[24rem] md:w-[24rem] w-[24rem] bg-jGrey shadow-xl">
           <figure>
-            <img src="" alt="Surgical Arm Picture" />
+            <video autoPlay loop muted>
+              <source src="/hackTheHeartmp4Scaled.mp4" />
+            </video>
           </figure>
           <div className="card-body">
             <span className="">
