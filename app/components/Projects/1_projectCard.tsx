@@ -163,7 +163,7 @@ const ProductCard = () => {
             <div className="card-actions justify-end">
               <Link
                 target="_blank"
-                href="https://github.com/Joban-Natt/joban-website"
+                href="https://github.com/Joban-Natt/surgeonArmCode"
               >
                 <button className="btn bg-jred border-none hover:bg-jhred hover:scale-110 btn-primary">
                   GitHub
