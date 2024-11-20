@@ -22,7 +22,7 @@ const simulationWorkshop = () => {
         <p className="text-jcream">
           Maintaining an upright position is crucial for a satellite to gather
           accurate data and take high-quality images. Magnetorquers are
-          solenoids that allow the CubeSat to leverage the earth's magnetic
+          solenoids that allow the CubeSat to leverage the earth&apos;s magnetic
           field and correct its attitude. According to Lenz&apos;s Law, the emf
           is proportional to the number of turns in the coil. This winding
           mechanism allows the team to manufacture solenoids with high levels of

@@ -20,7 +20,7 @@ const pianoCard = () => {
           </p>
         </span>
         <p className="text-jcream">
-          The robot's (Happy Keys) mechanical design features a lightweight
+          The robot&apos;s (Happy Keys) mechanical design features a lightweight
           structure, intuitive controls, and a stable base. The construction
           utilized Lego pieces, 3D-printed and laser cut components,
           facilitating easy alignment and broadening the range of playable
