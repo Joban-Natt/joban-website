@@ -14,7 +14,7 @@ export default function Intro() {
           <div className="w-[100%] sm:w-[50vw] sm:inline-block text-jcream xl:pl-32 lg:pl-24 md:pl-16 sm:pl-10 pl-6 xl:text-xl lg:text-lg text-base text-mwhite mt-4 pr-6 sm:pr-0">
             Welcome to my website! As you probably know, my name is Jobanpreet,
             however I&apos;d rather be called Joban (Joe - bin). I am currently
-            a Mechanical Engineering student at the University of Waterloo. I
+            a Mechatronics Engineering student at the University of Waterloo. I
             love learning and creating fun projects so please take the time to
             read through my experiences. If you have any questions, don&apos;t
             hesitate to reach out.
