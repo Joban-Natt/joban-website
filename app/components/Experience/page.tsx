@@ -34,9 +34,10 @@ export default function Experience() {
               manufacturing drawings of heaters to save up to 1 hour of
               production time
               <br />
-              Introduced 1:1 drilling/hole-cutting templates that decreased
-              cycle time for select heaters by up to 5 hours while increasing
-              accuracy of holes <br />
+              Designed heaters and temperature panels with AutoCAD and
+              SOLIDWORKS, refining GD&T skills <br />
+              Decreasing cycle time by over 3% by using DFMA principles for CNC
+              machining <br />
               Designing and assembling circuits for custom industrial
               temperature Control Panels that utilize PID/Fuzzy logic
               controllers in heating processes
@@ -78,10 +79,9 @@ export default function Experience() {
             <div className="timeline-start md:text-end mb-10">
               <time className="font-mono italic">January 2024 - May 2024</time>
               <div className="text-lg font-black">MPI MORHEAT</div>
-              Designed heaters and temperature panels with AutoCAD and
-              SOLIDWORKS, refining GD&T skills <br />
-              Decreasing cycle time by over 3% by using DFMA principles for CNC
-              machining <br />
+              Introduced 1:1 drilling/hole-cutting templates that decreased
+              cycle time for select heaters by up to 5 hours while increasing
+              accuracy of holes <br />
               Streamlined the manufacturing process by automating AutoCAD
               drawings via applications made with HTML and JavaScript, further
               decreasing production time by over 9% <br /> Designed circuits in
