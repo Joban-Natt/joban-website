@@ -26,9 +26,7 @@ const pianoCard = () => {
           facilitating easy alignment and broadening the range of playable
           songs. Happy Keys met all specified engineering requirements,
           including key accuracy, cost efficiency, and speed. The robot played
-          pre-programmed songs with precise timing. Occasional misalignment and
-          motor strain noises exist, but do not significantly impair
-          functionality.
+          pre-programmed songs with precise timing.
         </p>
 
         <div className="card-actions justify-end">
