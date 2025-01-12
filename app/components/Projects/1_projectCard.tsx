@@ -192,15 +192,15 @@ const ProductCard = () => {
             </span>
 
             <p className="text-jcream">
-              For the <b>MakeUofT</b> Hackathon, my partner and I <b>failed</b>{" "}
-              to create an autonomous piano playing mechanism. Two 28BYJ stepper
+              For the <b>MakeUofT</b> Hackathon, my partner and I failed to
+              create an autonomous piano playing mechanism. Two 28BYJ stepper
               motors and two <b>Nema-17</b> stepper motors were controlled by an{" "}
               <b>Arduino</b> running <b>pyfirmata2</b> to play a song in
               C-Major. The user must upload a .wav file into the software and it
               will use <b>Fourier analysis</b> to break up the sound into its
-              constituent frequencies. The note is then mapped to a stepper
-              motor that turns in the direction of the key. Unfortunately, these
-              motors require a lot of electricity, so although the code is
+              constituent frequencies. The notes are then mapped to a stepper
+              motor that turns in the direction of the key. We were constrained
+              by the availible voltage and current, so although the code is
               complete the project is unfinished. See Devpost button below for
               code.
             </p>
