@@ -10,7 +10,7 @@ const simulationWorkshop = () => {
           alt="Magnetorquer Image"
         />
       </figure>
-      <div className="card-body bg-jGrey">
+      <div className="card-body">
         <span className="">
           <h2 className="card-title inline-block m-0 align-top text-jcream">
             Magnetorquer Winding Mechanism
