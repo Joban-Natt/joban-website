@@ -30,22 +30,31 @@ export default function Experience() {
                 September 2024 - December 2024
               </time>
               <div className="text-lg font-black">MPI MORHEAT</div>
-              Developed react configuration applications that automated
-              manufacturing drawings of heaters to save up to 1 hour of
-              production time
-              <br />
-              Designed heaters and temperature panels with AutoCAD and
-              SOLIDWORKS, refining GD&T skills <br />
-              Decreasing cycle time by over 3% by using DFMA principles for CNC
-              machining <br />
-              Designing and assembling circuits for custom industrial
-              temperature Control Panels that utilize PID/Fuzzy logic
-              controllers in heating processes
-              <br />
-              Authored detailed product documentation, including technical
-              specifications, standard features, and general information for a
-              range of heating products to convey complex information concisely
-              <br />
+
+              <ul>
+                <li>
+                  &#8226; Developed react configuration applications that
+                  automated manufacturing drawings of heaters to save up to 1
+                  hour of production time
+                </li>
+                <li>
+                  &#8226; Designed heaters with AutoCAD and SOLIDWORKS, refining
+                  GD&T skills, using DFM/A principles for laser cutting and CNC
+                  machining resulting in an 8% decrease in cycle time
+                </li>
+                <li>
+                  &#8226; Designing and assembling circuits for custom
+                  industrial temperature Control Panels that utilize PID/Fuzzy
+                  logic controllers in heating processes
+                </li>
+                <li>
+                  &#8226; Authored detailed product documentation, including
+                  technical specifications, standard features, and general
+                  information for a range of heating products to convey complex
+                  information concisely
+                </li>
+              </ul>
+
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 CAD/CAM
               </div>
@@ -79,16 +88,24 @@ export default function Experience() {
             <div className="timeline-start md:text-end mb-10">
               <time className="font-mono italic">January 2024 - May 2024</time>
               <div className="text-lg font-black">MPI MORHEAT</div>
-              Introduced 1:1 drilling/hole-cutting templates that decreased
-              cycle time for select heaters by up to 5 hours while increasing
-              accuracy of holes <br />
-              Streamlined the manufacturing process by automating AutoCAD
-              drawings via applications made with HTML and JavaScript, further
-              decreasing production time by over 9% <br /> Designed circuits in
-              AutoCAD Electrical to fit client specifications, mainly consisting
-              of melt pressure sensors and transmitters, mastering hands on
-              skills such as soldering and machinery operation
-              <br />
+              <ul>
+                <li>
+                  &#8226; Introduced 1:1 drilling/hole-cutting templates that
+                  decreased cycle time for select heaters by up to 5 hours while
+                  increasing accuracy of holes
+                </li>
+                <li>
+                  &#8226; Manufactured and assembled testing jigs for pressure
+                  transducers and thermocouples with spare parts to increase
+                  testing speed by 5%{" "}
+                </li>
+                <li>
+                  &#8226; Designed circuits in AutoCAD Electrical to fit client
+                  specifications, mainly consisting of melt pressure sensors and
+                  transmitters, mastering hands on skills such as soldering and
+                  machinery operation
+                </li>
+              </ul>
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 AutoCAD
               </div>
@@ -129,14 +146,20 @@ export default function Experience() {
             <div className="timeline-end mb-10">
               <time className="font-mono italic">May 2024 - Present</time>
               <div className="text-lg font-black">UW Orbital</div>
-              Designed and manufactured winders for magnetorquers in SOLIDWORKS
-              that control the attitude and stability of the satilite in low
-              earth orbit.
-              <br /> Developing a thermal vacuum setup using Siemens NX to test
-              and qualify the CubeSat for launch that must achieve pressures of
-              10<sup>-6</sup> Torr, temperatures of -30&deg;C - 100&deg;C, and
-              autonomous operation for atleast 72 hours.
-              <br />
+              <ul>
+                <li>
+                  &#8226; Designed and manufactured winders for magnetorquers in
+                  SOLIDWORKS that control the attitude and stability of the
+                  satilite in low earth orbit.
+                </li>
+                <li>
+                  &#8226; Developing a thermal vacuum setup using Siemens NX to
+                  test and qualify the CubeSat for launch that must achieve
+                  pressures of 10<sup>-6</sup> Torr, temperatures of -30&deg;C -
+                  70&deg;C, and autonomous operation for atleast 72 hours.
+                </li>
+              </ul>
+
               <div className="bg-jred w-auto mt-2 px-2 mr-4 rounded-[12px] hover:bg-jhred inline-block">
                 Siemans NX
               </div>
